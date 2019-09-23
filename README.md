@@ -16,13 +16,11 @@
 
 ---
 
----
-
 ## Installation
 
- 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+ 👯 Clone this repo to your local machine using `https://github.com/snixs/ToDoList.git`
  
- ---
+---
 
 ## FAQ
 
@@ -36,11 +34,8 @@
 Reach out to me at LinkedIn
 - LinkedIn at <a href="https://www.linkedin.com/in/vladgrey" target="_blank">`@fvcproductions`</a>
 
-
 ---
 ## License
 
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
-
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2019 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.
+- Copyright 2019 ©.
