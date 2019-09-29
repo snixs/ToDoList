@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="add">הוסף</string>
+    <string name="add_dialog">מה תרצה להוסיף לרישמה</string>
+    <string name="add_task">הוספת משימה חדשה</string>
+    <string name="cancel">בטל</string>
+    <string name="list_name">תאריך</string>
+    <string name="text">טקסט</string>
+</resources>

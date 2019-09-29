@@ -11,9 +11,9 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="35dp"
         android:layout_marginEnd="35dp"
-        android:background="@drawable/xicon"
+        android:background="@drawable/custom_button"
         android:onClick="deleteTask"
-        android:shadowDx="@android:integer/config_shortAnimTime"/>
+/>
 
     <TextView
         android:paddingTop="10dp"

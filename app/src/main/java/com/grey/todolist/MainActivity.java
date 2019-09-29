@@ -106,10 +106,10 @@ public class MainActivity extends AppCompatActivity {
         if(item.getItemId() == R.id.add_new_task) {
             final EditText userTaskGet = new EditText(this);
             AlertDialog dialog = new AlertDialog.Builder(this)
-                    .setTitle("Add new Task")
-                    .setMessage("What would you like to do")
+                    .setTitle(R.string.add_task)
+                    .setMessage(R.string.add_dialog)
                     .setView(userTaskGet)
-                    .setPositiveButton("Add", new DialogInterface.OnClickListener() {
+                    .setPositiveButton(R.string.add, new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
                             if(!userTaskGet.getText().toString().matches(""))
@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         }
                     })
-                    .setNegativeButton("Cancel", null)
+                    .setNegativeButton(R.string.cancel, null)
                     .create();
             dialog.show();
             return true;
