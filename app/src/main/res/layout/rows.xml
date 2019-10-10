@@ -10,20 +10,34 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="35dp"
-        android:layout_marginEnd="35dp"
+        android:layout_marginEnd="21dp"
         android:background="@drawable/custom_button"
         android:onClick="deleteTask"
-/>
+        android:text="x"
+        android:textColor="@color/colorWhite" />
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/custom_button"
+        android:onClick="addMore"
+        android:text="1"
+        android:textColor="@color/colorWhite" />
 
     <TextView
-        android:paddingTop="10dp"
         android:id="@+id/txt_task"
-        android:layout_width="272dp"
+        android:layout_width="224dp"
         android:layout_height="55dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="35dp"
         android:layout_marginTop="30dp"
+        android:paddingTop="10dp"
         android:text="@string/text"
         android:textSize="24sp" />
 

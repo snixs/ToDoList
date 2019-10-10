@@ -2,7 +2,6 @@ package com.grey.todolist;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.DatePickerDialog;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
@@ -23,7 +22,6 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import java.util.ArrayList;
 import java.util.Calendar;
 
@@ -133,6 +131,16 @@ public class MainActivity extends AppCompatActivity {
         TextView txt_task = (TextView)parent.findViewById(R.id.txt_task);
         String task = String.valueOf(txt_task.getText());
         dbHelper.deleteData(task);
+        loadAllTasks();
+    }
+
+
+    public void addMore(View view) {
+        View parent = (View)view.getParent();
+        TextView count_task = (TextView)parent.findViewById(R.id.count);
+        int counter = Integer.parseInt(count_task.getText().toString());
+        counter++;
+        count_task.setText(String.valueOf(counter));
         loadAllTasks();
     }
 }
